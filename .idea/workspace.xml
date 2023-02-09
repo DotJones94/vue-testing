@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="21942254-f9a5-4c4f-9f1b-b757871ca422" name="Changes" comment="">
+    <list default="true" id="21942254-f9a5-4c4f-9f1b-b757871ca422" name="Changes" comment="Added PrimeVue for front end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing-vue-3/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/testing-vue-3/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/testing-vue-3/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/testing-vue-3/package.json" afterDir="false" />
@@ -60,8 +60,16 @@
       <updated>1668774266058</updated>
       <workItem from="1668774267556" duration="6926000" />
       <workItem from="1674816741616" duration="609000" />
-      <workItem from="1675944549258" duration="3801000" />
+      <workItem from="1675944549258" duration="6755000" />
     </task>
+    <task id="LOCAL-00001" summary="Added PrimeVue for front end">
+      <created>1675950920284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675950920285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,5 +85,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added PrimeVue for front end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added PrimeVue for front end" />
   </component>
 </project>
