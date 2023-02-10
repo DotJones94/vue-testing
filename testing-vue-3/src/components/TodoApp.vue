@@ -7,11 +7,15 @@
 
 <!--      To do list-->
       <div class="border-2 border-dashed surface-border">
-        <div v-for="todo in todos" :key="todo.id" class="field-checkbox p-3">
-          <CheckBox name="todo" :value="todo.id" v-model="completedTasks" class="mr-4"/>
-          <label :for="todo.id">{{todo.text}}</label>
+        <div v-for="todo in todos" :key="todo.id" class="p-3" data-test="todo">
+          <label :for="todo.id" :class="todo.completed ? 'completed' : ''" data-test="todo-label">{{todo.text}}</label>
+          <input :name="todo.id" v-model="todo.completed" type="checkbox" data-test="todo-checkbox">
         </div>
       </div>
+
+      <form class="mt-8" data-test="form" @submit.prevent="createATodo">
+            <input id="newTodo" type="text" v-model="newToDo" class="p-inputtext-lg" data-test="new-todo"/>
+      </form>
     </div>
   </div>
 </template>
@@ -22,13 +26,23 @@ export default {
   name: "TodoApp",
   data(){
     return{
+      newToDo: '',
       todos: [
-        { id: 1, text: 'Learn vue testing'},
-        { id: 2, text: 'Get to know Prime Vue'},
-        { id: 3, text: 'Tell the team your findings'},
-        { id: 4, text: 'Implement it!'},
+        { id: 1, text: 'Learn Vue Testing', completed: false},
+        { id: 2, text: 'Get to know Prime Vue', completed: false},
+        { id: 3, text: 'Tell the team your findings', completed: false},
+        { id: 4, text: 'Implement it!', completed: false},
       ],
       completedTasks: [],
+    }
+  },
+  methods:{
+    createATodo(){
+      this.todos.push({
+        id: 5,
+        text: this.newToDo,
+        completed: false
+      })
     }
   }
 }
@@ -38,5 +52,9 @@ export default {
 .p-checkbox:deep(.p-checkbox-box.p-highlight){
   background: red;
   border: pink;
+}
+
+.completed{
+  text-decoration: line-through;
 }
 </style>
