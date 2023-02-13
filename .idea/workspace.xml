@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="21942254-f9a5-4c4f-9f1b-b757871ca422" name="Changes" comment="Added tailwind and set up a UI for to do list">
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/src/components/ChildTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/src/components/NavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/src/components/ParentTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/tests/unit/Nav.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/tests/unit/ParentTest.spec.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-vue-3/src/components/TodoApp.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testing-vue-3/src/components/TodoApp.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testing-vue-3/tests/unit/TodoApp.spec.js" beforeDir="false" afterPath="$PROJECT_DIR$/testing-vue-3/tests/unit/TodoApp.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-vue-3/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testing-vue-3/src/App.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="Vue Single File Component" />
       </list>
     </option>
@@ -38,6 +43,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kellyjones/Documents/GitHub/vue-testing/testing-vue-3/tests/unit",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -48,30 +54,49 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Jest.TodoApp.vue.should complete a todo">
-    <configuration name="Message.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing-vue-3/tests/unit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.ParentTest.vue">
+    <configuration name="NavBar.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
       <working-dir value="$PROJECT_DIR$/testing-vue-3" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/Message.spec.js" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/Nav.spec.js" />
       <test-names>
-        <test-name value="Message.vue" />
+        <test-name value="NavBar.vue" />
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="TodoApp.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="NavBar.vue.should not render a profile link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
+      <working-dir value="$PROJECT_DIR$/testing-vue-3" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/Nav.spec.js" />
+      <test-names>
+        <test-name value="NavBar.vue" />
+        <test-name value="should not render a profile link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParentTest.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
       <working-dir value="$PROJECT_DIR$/testing-vue-3" />
       <envs />
       <scope-kind value="SUITE" />
-      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/TodoApp.spec.js" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/ParentTest.spec.js" />
       <test-names>
-        <test-name value="TodoApp.vue" />
+        <test-name value="ParentTest.vue" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -105,10 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.ParentTest.vue" />
+        <item itemvalue="Jest.NavBar.vue.should not render a profile link" />
+        <item itemvalue="Jest.NavBar.vue" />
         <item itemvalue="Jest.TodoApp.vue.should complete a todo" />
         <item itemvalue="Jest.TodoApp.vue.should add new todo" />
-        <item itemvalue="Jest.TodoApp.vue" />
-        <item itemvalue="Jest.Message.vue" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +150,7 @@
       <workItem from="1674816741616" duration="609000" />
       <workItem from="1675944549258" duration="8448000" />
       <workItem from="1675965526539" duration="9000" />
-      <workItem from="1676022514578" duration="5410000" />
+      <workItem from="1676022514578" duration="7536000" />
     </task>
     <task id="LOCAL-00001" summary="Added PrimeVue for front end">
       <created>1675950920284</created>
