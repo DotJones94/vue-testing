@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="21942254-f9a5-4c4f-9f1b-b757871ca422" name="Changes" comment="Added tailwind and set up a UI for to do list">
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/src/components/ChildTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/src/components/NavBar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/src/components/ParentTest.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/tests/unit/Nav.spec.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing-vue-3/tests/unit/ParentTest.spec.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testing-vue-3/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/testing-vue-3/src/App.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HiiNZxFrD6Gh7jr2xd9z1C1iTd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/Users/kellyjones/Documents/GitHub/vue-testing/testing-vue-3/tests/unit",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "/Users/kellyjones/Documents/GitHub/vue-testing/testing-vue-3/node_modules/@vue/cli-service",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/testing-vue-3/tests/unit" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Jest.ParentTest.vue">
+    <configuration name="NavBar.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
+      <working-dir value="$PROJECT_DIR$/testing-vue-3" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/Nav.spec.js" />
+      <test-names>
+        <test-name value="NavBar.vue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="NavBar.vue.should not render a profile link" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
+      <working-dir value="$PROJECT_DIR$/testing-vue-3" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/Nav.spec.js" />
+      <test-names>
+        <test-name value="NavBar.vue" />
+        <test-name value="should not render a profile link" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="ParentTest.vue" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
+      <working-dir value="$PROJECT_DIR$/testing-vue-3" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/ParentTest.spec.js" />
+      <test-names>
+        <test-name value="ParentTest.vue" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoApp.vue.should add new todo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
+      <working-dir value="$PROJECT_DIR$/testing-vue-3" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/TodoApp.spec.js" />
+      <test-names>
+        <test-name value="TodoApp.vue" />
+        <test-name value="should add new todo" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <configuration name="TodoApp.vue.should complete a todo" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/testing-vue-3/node_modules/@vue/cli-service" />
+      <working-dir value="$PROJECT_DIR$/testing-vue-3" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/testing-vue-3/tests/unit/TodoApp.spec.js" />
+      <test-names>
+        <test-name value="TodoApp.vue" />
+        <test-name value="should complete a todo" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.ParentTest.vue" />
+        <item itemvalue="Jest.NavBar.vue.should not render a profile link" />
+        <item itemvalue="Jest.NavBar.vue" />
+        <item itemvalue="Jest.TodoApp.vue.should complete a todo" />
+        <item itemvalue="Jest.TodoApp.vue.should add new todo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="21942254-f9a5-4c4f-9f1b-b757871ca422" name="Changes" comment="" />
+      <created>1668774266058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668774266058</updated>
+      <workItem from="1668774267556" duration="6926000" />
+      <workItem from="1674816741616" duration="609000" />
+      <workItem from="1675944549258" duration="8448000" />
+      <workItem from="1675965526539" duration="9000" />
+      <workItem from="1676022514578" duration="7536000" />
+    </task>
+    <task id="LOCAL-00001" summary="Added PrimeVue for front end">
+      <created>1675950920284</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675950920285</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added tailwind and set up a UI for to do list">
+      <created>1675954064389</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675954064389</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added PrimeVue for front end" />
+    <MESSAGE value="Added tailwind and set up a UI for to do list" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added tailwind and set up a UI for to do list" />
+  </component>
+</project>
